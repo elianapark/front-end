@@ -25,3 +25,4 @@
 ### 007
 - Built with JavaScript, HTML, and CSS
 - Wherever a mouse follows, it will show where the mouse is located
+![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/70451816/104246763-6a590080-541b-11eb-84fd-cb5c2902ac00.gif)
