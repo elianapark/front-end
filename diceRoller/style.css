@@ -1,0 +1,50 @@
+#wrapper {
+    display:flex;
+    text-align: center;
+}
+
+.dice {
+    font-family: fantasy;
+    width:600px;
+    height:600px;
+    background: url('die.jpg') no-repeat center;
+    background-size: contain;
+    text-align:center;
+    font-size: 160px;
+    padding:190px;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* DISABLES TEXT SELECTION: */
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+        -moz-user-select: none;     /* Firefox all */
+        -ms-user-select: none;      /* IE 10+ */
+        user-select: none;          /* Likely future */      
+}
+
+.sm {
+    width: 100px;
+    height: 100px;
+    font-size: 26px;
+    padding: 33px;
+    cursor:default;
+    display: inline-block;
+}
+
+#stats {
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+
+.stat {
+    padding:20px;
+    outline:1px solid black;
+}
+
+.col {
+    max-width: 45%;
+}
+
+#rolls, #stats {
+    width:600px;
+}
