@@ -16,3 +16,8 @@
 - When wrong form of email or password are used, it will show an error
 - When correct form of informations are typed, it will move forward to the next page
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104245888-ed795700-5419-11eb-848c-435cef48abd8.gif)
+
+### rabits (Find the rabit)
+- Built with pure JavaScript and HTML
+- When the button is pressed, the application will find where the rabit is
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104246389-c0797400-541a-11eb-8504-8596070af591.gif)
