@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gyuri Park</title>
+    <style>
+        p {
+            color: rgb(221, 110, 110);
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        p:hover {
+            background: rgb(247, 247, 216);
+        }
+
+        #slideDown div {
+            color: blueviolet;
+            background-color: blueviolet;
+            margin: 3px;
+            width: 40px;
+            height: 10px;
+            display: none;
+            float: left;
+        }
+
+        #slideUp div {
+            background: #3d9a44;
+            margin: 3px;
+            width: 40px;
+            height: 10px;
+            float: left;
+        }
+
+        .selected {
+            color: crimson;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+        div {
+            border-top: double;
+            padding: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <div class="click">
+        <button>Click</button>
+        <p>The click event is sent to an element when the mouse pointer is over the element, and the mouse button is
+            pressed and released. Any HTML element can receive this event.</p>
+    </div>
+
+    <div id="hide">
+        <button>Hide</button>
+        <p>The matched elements will be hidden immediately, with no animation. This is roughly equivalent to calling
+            .css( "display", "none" ), except that the value of the display property is saved in jQuery's data cache so
+            that display can later be restored to its initial value. If an element has a display value of inline and is
+            hidden then shown, it will once again be displayed inline.</p>
+    </div><br>
+
+    <div id="show">
+        <button>Show</button>
+        <p style="display: none">With no parameters, the .show() method is the simplest way to display an element:</p>
+    </div><br>
+
+    <div id="toggle">
+        <button>Toggle</button>
+        <p>When you click 'Toggle'</p>
+        <p style="display: none">You can see me @.@</p>
+    </div><br>
+
+    <div id="slideDown">
+        <button>Slide Down</button>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div><br>
+
+    <div id="slideUp">
+        <button>Slide Up</button>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div><br>
+
+    <div id="slideToggle">
+        <button>Slide Toggle</button>
+        <p>The .slideToggle() method animates the height of the matched elements. This causes lower parts of the page to
+            slide up or down, appearing to reveal or conceal the items. If the element is initially displayed, it will
+            be hidden; if hidden, it will be shown.</p>
+    </div><br>
+
+    <div id="addClass">
+        <p>This statement is "Add Class"</p>
+        <p>This statement is new for "Add Class"</p>
+    </div><br>
+
+    <div id="fadeIn">
+        <img src="Discover_Scuba_Diving_--_St._Croix,_US_Virgin_Islands.jpg" style="display: none" alt="Discover Scuba">
+    </div><br>
+
+    <div id="fadeOut">
+        <img src="scuba-diving.jpg" alt="Scuba2">
+    </div><br>
+
+    <div id="before">
+        <p>This statement is for before</p>
+    </div><br>
+
+    <div id="after">
+        <p>This statement is for after</p>
+    </div><br>
+
+    <div id="append">
+        <p>This statement is for append.</p>
+    </div><br>
+
+    <div id="html">
+        <button>See HTML Code</button>
+    </div><br>
+
+    <div id="attr">
+
+    </div>
+
+
+    <div id="val">
+        <button>val</button>
+        <input type="text" value="click">
+    </div>
+    <script>
+        $(".click button").click(function () {
+            $(this).slideUp();
+        });
+
+        $("#hide button").click(function () {
+            $("#hide p").hide("slow");
+        });
+
+        $("#show button").click(function () {
+            $("#show p").show("slow");
+        });
+
+        $("#toggle button").click(function () {
+            $("#toggle p").toggle("slow");
+        });
+
+        $("#slideDown").click(function () {
+            // if ($("div").first().is(":hidden")) {
+            $("#slideDown div").slideDown("slow");
+            // } else {
+            //     $("div").hide();
+            // }
+        });
+
+        $("#slideUp").click(function () {
+            $("#slideUp div").slideUp("slow");
+        })
+
+        $("#slideToggle").click(function () {
+            $("p").slideToggle("slow");
+        })
+
+        $("#fadeIn").hover(function () {
+            $("#fadeIn img").fadeIn("slow");
+        })
+
+        $("#fadeOut").hover(function () {
+            $("#fadeOut img").fadeOut("slow");
+        })
+
+        $("#addClass p").last().addClass("selected")
+
+        $("#before").before("<b>I am adding this BEFORE</b>")
+        $("#after").after("<b>I am adding this AFTER</b>")
+        $("#append").append("<strong>APPEND</strong>");
+        $("#html").hover(function () {
+            let htmlString = $(this).html();
+            $(this).text(htmlString);
+        })
+        //attr
+        $("#val button").click(function () {
+            var text = $(this).text();
+            $("#val input").val(text);
+        });
+    </script>
+
+</body>
+
+</html>
