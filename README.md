@@ -28,6 +28,7 @@
 ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/70451816/104246763-6a590080-541b-11eb-84fd-cb5c2902ac00.gif)
 
 ### JQuery
-- Basic JQuery functions 
+- Basic JQuery functions
+
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104247313-64175400-541c-11eb-8424-ee041fa07ae7.gif)
 
