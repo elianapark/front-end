@@ -1,0 +1,47 @@
+body {
+    /* background-color: navy; */
+    color: skyblue;
+}
+
+.every {
+    background-color: navy;
+    min-height: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+
+}
+
+.lists {
+    background-color: teal;
+    width: 300px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+
+}
+
+.aboutJS {
+    background-color: black;
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+    border-radius: 25px;
+    /* margin: 0px 350px; */
+    padding: 10px 10px 10px 10px;
+    vertical-align: top;
+}
+
+a {
+    color: teal;
+}
+
+footer {
+    background-color: grey;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+}

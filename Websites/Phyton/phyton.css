@@ -1,0 +1,132 @@
+/* .whole {
+    margin: 0;
+    padding: 10px;
+} */
+
+.topBackground {
+    background-color: rgb(39, 90, 184);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    width: 250px;
+    height: 100%;
+}
+
+.textSize {
+    color: white;
+    text-align: right;
+}
+
+.textSize a {
+    color: yellow;
+}
+
+.searchBox {
+    background-color: rgb(62, 62, 62);
+    border-radius: 10%;
+    display: inline-flexbox;
+    padding: 20px
+}
+
+.searchBox a {
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    border: 2px solid gray
+}
+
+.menu {
+    background-color: skyblue;
+    text-align: center;
+    /* width: 950px;
+    height: 50px; */
+    font-size: 30px;
+    border-radius: 15%;
+    display: block;
+
+}
+
+.menu ul {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    flex-direction: row;
+
+    text-align: center;
+
+    /*HOW TO ALIGN*/
+}
+
+.list li a {
+    color: white;
+    list-style: lower-latin;
+    text-align: center;
+    /*How to change list shape*/
+}
+
+.main {
+    text-align: center;
+}
+
+.main .top {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+}
+
+.main .middle {
+    color: yellow;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.main .bottom {
+    color: white;
+    font-size: 20px;
+}
+
+.mainBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomMain {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.bottomMain .left .right {
+    border-top: 2px solid midnightblue;
+}
+
+
+
+
+
+footer {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+
+    /* flex-direction: row;
+    display: flex; */
+    /*HOW TO ALIGN*/
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+
+}

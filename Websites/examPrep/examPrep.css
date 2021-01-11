@@ -1,0 +1,74 @@
+.wrap {
+    background-color: whitesmoke;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.top {
+    background-color: navy;
+    height: 300px;
+    color: white;
+    padding: 10px 200px;
+
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+a {
+    color: rgb(72, 50, 50);
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#nav li {
+    list-style: none;
+}
+
+.car {
+    text-align: center;
+    padding: 50px;
+}
+
+.btn {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: center;
+    width: 100px;
+
+}
+
+.main {
+    padding: 10px 200px;
+}
+
+p {
+    text-align: center;
+}
+
+#boxHolder {
+    display: flex;
+}
+
+.box {
+    width: 30%;
+    height: 410px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.icon {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 100%;
+}

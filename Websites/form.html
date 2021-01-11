@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyuri Park's Form Assignment</title>
+</head>
+<body>
+
+    <h1>NAME OF THE FORMS</h1>
+
+    <form>
+        <fieldset>
+            <legend>Account Information</legend>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" value="first" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" value="last"><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" value="birthday"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="email"><br>
+
+        </fieldset>
+
+        <p>
+            Please select one:<br>
+            <form>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+            </form>
+        </p>
+
+        <p>
+            Please select all applies to you:<br>
+            <form>
+                <input type="checkbox" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="checkbox" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="checkbox" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+            </form>
+        </p>
+
+        <p>
+            Introduce yourself and explain why you must lose weight:<br>
+            <textarea name="message" rows="25" cols="50">Limit 300 words</textarea>
+        </p>
+
+        <p>
+            <form action="/action_page.php">
+                <label for="goals">Choose your Weight Loss Goal:</label>
+                <select id="goals" name="goals">
+                <option value="easy">Easy (-1lb/week)</option>
+                <option value="intermediate">Intermediate (-1.5lb/week)</option>
+                <option value="hardcore" selected>Hard Core (-2lb/week)</option>
+                </select>
+            </form>
+        </p>
+
+        <p>
+            Current weight: <br>
+            0
+            <input type="range" id="a" name="a" value="50">
+            300lb
+        </p>
+
+        <input type="reset">
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>

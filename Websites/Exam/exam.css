@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+header {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1200px;
+}
+
+#menu li a {
+    display: block;
+    color: darkgray;
+    text-align: center;
+    padding: 18px;
+
+}
+
+#menu ul {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    background-color: rgb(80, 77, 77);
+    width: 1200px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+}
+
+#main img {
+    width: 1240px;
+}
+
+#sub {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.iconBox {
+    display: flex;
+    padding: 20px;
+}
+
+#sub h3 {
+    color: orange;
+}
+
+#middle {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    height: 200px;
+}
+
+.heads {
+    margin-right: 30%;
+}
+
+.btn {
+    float: right;
+    position: relative;
+}
+
+button {
+    background-color: orange;
+    border-radius: 10%;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.portHeading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.portHeading a {
+    color: orange
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px
+}
+
+.portBox img {
+    width: 280px;
+    border: 5px solid gray;
+}
+
+.portBox h5 {
+    color: orange;
+}
+
+footer p {
+    color: gray;
+    text-align: right;
+}

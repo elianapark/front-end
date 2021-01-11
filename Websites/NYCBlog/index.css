@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    color: yellow;
+}
+
+div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
