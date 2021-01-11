@@ -15,3 +15,4 @@
 - Built with JavaScript, HTML, and CSS
 - When wrong form of email or password are used, it will show an error
 - When correct form of informations are typed, it will move forward to the next page
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104245888-ed795700-5419-11eb-848c-435cef48abd8.gif)
