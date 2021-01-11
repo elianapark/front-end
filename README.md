@@ -10,3 +10,8 @@
 - Can select a kind of movies and depending on the movies, it prints out the different pricing
 - When seats are selected, it presents the pricing and changes its color
 ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/70451816/104245221-bd7d8400-5418-11eb-8b32-5d3ba983f25d.gif)
+
+### loginForm
+- Built with JavaScript, HTML, and CSS
+- When wrong form of email or password are used, it will show an error
+- When correct form of informations are typed, it will move forward to the next page
