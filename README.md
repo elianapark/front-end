@@ -3,6 +3,7 @@
 ### portfolio Website
 - HTML, CSS, JavaScript, JQuery
 - Basic portfolio style website
+- Mobile friendly
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104347459-7e514080-54b5-11eb-860f-f332ea023857.gif)
 
 
