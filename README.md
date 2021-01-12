@@ -2,8 +2,7 @@
 
 ### Pacman
 - Built with only JavaScript
-- Pacman game
-
+- Pacman game: Scores go up as the pacman eats the coin and cannot go over the blocks
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104345737-890ad600-54b3-11eb-9e6b-421305d0ff0f.gif)
 
 ### diceRoller
