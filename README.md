@@ -1,5 +1,10 @@
 # front-end projects
 
+### portfolio Website
+- HTML, CSS, JavaScript, JQuery
+- Basic portfolio style website
+
+
 ### Pacman
 - Built with only JavaScript
 - Pacman game: Scores go up as the pacman eats the coin and cannot go over the blocks
