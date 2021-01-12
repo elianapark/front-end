@@ -1,5 +1,10 @@
 # front-end projects
 
+### Pacman
+- Built with only JavaScript
+- Pacman game
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70451816/104345737-890ad600-54b3-11eb-9e6b-421305d0ff0f.gif)
+
 ### diceRoller
 - Built with JavaScript, HTML, and CSS
 - When the button is clicked, it presents different numbers each time like a lottery machine
